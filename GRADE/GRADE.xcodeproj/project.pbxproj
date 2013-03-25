@@ -111,6 +111,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB977C6C1700B2BD0096D674 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
+				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		EB977C6D1700B2D90096D674 /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
+				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+			);
+			name = MasterViewController;
+			sourceTree = "<group>";
+		};
 		FEE95FC31700AA2500EFB19F = {
 			isa = PBXGroup;
 			children = (
@@ -147,9 +165,9 @@
 				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
 				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
 				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
-				FEE9600F1700ACC300EFB19F /* Controller */,
-				FEE9600E1700ACBF00EFB19F /* View */,
 				FEE9600D1700ACB600EFB19F /* Model */,
+				FEE9600E1700ACBF00EFB19F /* View */,
+				FEE9600F1700ACC300EFB19F /* Controller */,
 				FEE95FD61700AA2500EFB19F /* Supporting Files */,
 			);
 			path = GRADE;
