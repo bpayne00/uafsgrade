@@ -141,9 +141,9 @@
 				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
 				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
 				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
-				FEE9600F1700ACC300EFB19F /* Controller */,
-				FEE9600E1700ACBF00EFB19F /* View */,
 				FEE9600D1700ACB600EFB19F /* Model */,
+				FEE9600E1700ACBF00EFB19F /* View */,
+				FEE9600F1700ACC300EFB19F /* Controller */,
 				FEE95FD61700AA2500EFB19F /* Supporting Files */,
 			);
 			path = GRADE;
