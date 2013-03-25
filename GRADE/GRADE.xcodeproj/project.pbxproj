@@ -87,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB977C6C1700B2BD0096D674 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
+				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		EB977C6D1700B2D90096D674 /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
+				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+			);
+			name = MasterViewController;
+			sourceTree = "<group>";
+		};
 		FEE95FC31700AA2500EFB19F = {
 			isa = PBXGroup;
 			children = (
@@ -181,10 +199,8 @@
 		FEE9600F1700ACC300EFB19F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
-				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
-				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
-				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+				EB977C6C1700B2BD0096D674 /* DetailViewController */,
+				EB977C6D1700B2D90096D674 /* MasterViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
