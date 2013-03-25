@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE95FD01700AA2500EFB19F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FCF1700AA2500EFB19F /* UIKit.framework */; };
+		FEE95FD21700AA2500EFB19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD11700AA2500EFB19F /* Foundation.framework */; };
+		FEE95FD41700AA2500EFB19F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD31700AA2500EFB19F /* CoreGraphics.framework */; };
+		FEE95FDA1700AA2500EFB19F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FD81700AA2500EFB19F /* InfoPlist.strings */; };
+		FEE95FDC1700AA2500EFB19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE95FDB1700AA2500EFB19F /* main.m */; };
+		FEE95FE01700AA2500EFB19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE95FDF1700AA2500EFB19F /* AppDelegate.m */; };
+		FEE95FE21700AA2500EFB19F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FE11700AA2500EFB19F /* Default.png */; };
+		FEE95FE41700AA2500EFB19F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FE31700AA2500EFB19F /* Default@2x.png */; };
+		FEE95FE61700AA2500EFB19F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FE51700AA2500EFB19F /* Default-568h@2x.png */; };
+		FEE95FE91700AA2500EFB19F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */; };
+		FEE95FEC1700AA2500EFB19F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE95FEB1700AA2500EFB19F /* MasterViewController.m */; };
+		FEE95FEF1700AA2500EFB19F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE95FEE1700AA2500EFB19F /* DetailViewController.m */; };
+		FEE95FF71700AA2500EFB19F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FF61700AA2500EFB19F /* SenTestingKit.framework */; };
+		FEE95FF81700AA2500EFB19F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FCF1700AA2500EFB19F /* UIKit.framework */; };
+		FEE95FF91700AA2500EFB19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD11700AA2500EFB19F /* Foundation.framework */; };
+		FEE960011700AA2500EFB19F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEE95FFF1700AA2500EFB19F /* InfoPlist.strings */; };
+		FEE960041700AA2500EFB19F /* GRADETests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE960031700AA2500EFB19F /* GRADETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE95FFA1700AA2500EFB19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE95FC41700AA2500EFB19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE95FCB1700AA2500EFB19F;
+			remoteInfo = GRADE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE95FCC1700AA2500EFB19F /* GRADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE95FCF1700AA2500EFB19F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEE95FD11700AA2500EFB19F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEE95FD31700AA2500EFB19F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEE95FD71700AA2500EFB19F /* GRADE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRADE-Info.plist"; sourceTree = "<group>"; };
+		FEE95FD91700AA2500EFB19F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEE95FDB1700AA2500EFB19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEE95FDD1700AA2500EFB19F /* GRADE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GRADE-Prefix.pch"; sourceTree = "<group>"; };
+		FEE95FDE1700AA2500EFB19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEE95FDF1700AA2500EFB19F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEE95FE11700AA2500EFB19F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FEE95FE31700AA2500EFB19F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEE95FE51700AA2500EFB19F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEE95FE81700AA2500EFB19F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FEE95FEA1700AA2500EFB19F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		FEE95FEB1700AA2500EFB19F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		FEE95FED1700AA2500EFB19F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FEE95FEE1700AA2500EFB19F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FEE95FF51700AA2500EFB19F /* GRADETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRADETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE95FF61700AA2500EFB19F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FEE95FFE1700AA2500EFB19F /* GRADETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRADETests-Info.plist"; sourceTree = "<group>"; };
+		FEE960001700AA2500EFB19F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEE960021700AA2500EFB19F /* GRADETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRADETests.h; sourceTree = "<group>"; };
+		FEE960031700AA2500EFB19F /* GRADETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRADETests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE95FC91700AA2500EFB19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE95FD01700AA2500EFB19F /* UIKit.framework in Frameworks */,
+				FEE95FD21700AA2500EFB19F /* Foundation.framework in Frameworks */,
+				FEE95FD41700AA2500EFB19F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE95FF11700AA2500EFB19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE95FF71700AA2500EFB19F /* SenTestingKit.framework in Frameworks */,
+				FEE95FF81700AA2500EFB19F /* UIKit.framework in Frameworks */,
+				FEE95FF91700AA2500EFB19F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE95FC31700AA2500EFB19F = {
+			isa = PBXGroup;
+			children = (
+				FEE95FD51700AA2500EFB19F /* GRADE */,
+				FEE95FFC1700AA2500EFB19F /* GRADETests */,
+				FEE95FCE1700AA2500EFB19F /* Frameworks */,
+				FEE95FCD1700AA2500EFB19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE95FCD1700AA2500EFB19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FCC1700AA2500EFB19F /* GRADE.app */,
+				FEE95FF51700AA2500EFB19F /* GRADETests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE95FCE1700AA2500EFB19F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FCF1700AA2500EFB19F /* UIKit.framework */,
+				FEE95FD11700AA2500EFB19F /* Foundation.framework */,
+				FEE95FD31700AA2500EFB19F /* CoreGraphics.framework */,
+				FEE95FF61700AA2500EFB19F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE95FD51700AA2500EFB19F /* GRADE */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
+				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
+				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
+				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
+				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
+				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+				FEE95FD61700AA2500EFB19F /* Supporting Files */,
+			);
+			path = GRADE;
+			sourceTree = "<group>";
+		};
+		FEE95FD61700AA2500EFB19F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FD71700AA2500EFB19F /* GRADE-Info.plist */,
+				FEE95FD81700AA2500EFB19F /* InfoPlist.strings */,
+				FEE95FDB1700AA2500EFB19F /* main.m */,
+				FEE95FDD1700AA2500EFB19F /* GRADE-Prefix.pch */,
+				FEE95FE11700AA2500EFB19F /* Default.png */,
+				FEE95FE31700AA2500EFB19F /* Default@2x.png */,
+				FEE95FE51700AA2500EFB19F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE95FFC1700AA2500EFB19F /* GRADETests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE960021700AA2500EFB19F /* GRADETests.h */,
+				FEE960031700AA2500EFB19F /* GRADETests.m */,
+				FEE95FFD1700AA2500EFB19F /* Supporting Files */,
+			);
+			path = GRADETests;
+			sourceTree = "<group>";
+		};
+		FEE95FFD1700AA2500EFB19F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FFE1700AA2500EFB19F /* GRADETests-Info.plist */,
+				FEE95FFF1700AA2500EFB19F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE95FCB1700AA2500EFB19F /* GRADE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE960071700AA2500EFB19F /* Build configuration list for PBXNativeTarget "GRADE" */;
+			buildPhases = (
+				FEE95FC81700AA2500EFB19F /* Sources */,
+				FEE95FC91700AA2500EFB19F /* Frameworks */,
+				FEE95FCA1700AA2500EFB19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRADE;
+			productName = GRADE;
+			productReference = FEE95FCC1700AA2500EFB19F /* GRADE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE95FF41700AA2500EFB19F /* GRADETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE9600A1700AA2500EFB19F /* Build configuration list for PBXNativeTarget "GRADETests" */;
+			buildPhases = (
+				FEE95FF01700AA2500EFB19F /* Sources */,
+				FEE95FF11700AA2500EFB19F /* Frameworks */,
+				FEE95FF21700AA2500EFB19F /* Resources */,
+				FEE95FF31700AA2500EFB19F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE95FFB1700AA2500EFB19F /* PBXTargetDependency */,
+			);
+			name = GRADETests;
+			productName = GRADETests;
+			productReference = FEE95FF51700AA2500EFB19F /* GRADETests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE95FC41700AA2500EFB19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "UAFS Capstone";
+			};
+			buildConfigurationList = FEE95FC71700AA2500EFB19F /* Build configuration list for PBXProject "GRADE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEE95FC31700AA2500EFB19F;
+			productRefGroup = FEE95FCD1700AA2500EFB19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE95FCB1700AA2500EFB19F /* GRADE */,
+				FEE95FF41700AA2500EFB19F /* GRADETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE95FCA1700AA2500EFB19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE95FDA1700AA2500EFB19F /* InfoPlist.strings in Resources */,
+				FEE95FE21700AA2500EFB19F /* Default.png in Resources */,
+				FEE95FE41700AA2500EFB19F /* Default@2x.png in Resources */,
+				FEE95FE61700AA2500EFB19F /* Default-568h@2x.png in Resources */,
+				FEE95FE91700AA2500EFB19F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE95FF21700AA2500EFB19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE960011700AA2500EFB19F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEE95FF31700AA2500EFB19F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE95FC81700AA2500EFB19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE95FDC1700AA2500EFB19F /* main.m in Sources */,
+				FEE95FE01700AA2500EFB19F /* AppDelegate.m in Sources */,
+				FEE95FEC1700AA2500EFB19F /* MasterViewController.m in Sources */,
+				FEE95FEF1700AA2500EFB19F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE95FF01700AA2500EFB19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE960041700AA2500EFB19F /* GRADETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE95FFB1700AA2500EFB19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE95FCB1700AA2500EFB19F /* GRADE */;
+			targetProxy = FEE95FFA1700AA2500EFB19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEE95FD81700AA2500EFB19F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE95FD91700AA2500EFB19F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE95FE81700AA2500EFB19F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE95FFF1700AA2500EFB19F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE960001700AA2500EFB19F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE960051700AA2500EFB19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEE960061700AA2500EFB19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE960081700AA2500EFB19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRADE/GRADE-Prefix.pch";
+				INFOPLIST_FILE = "GRADE/GRADE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEE960091700AA2500EFB19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRADE/GRADE-Prefix.pch";
+				INFOPLIST_FILE = "GRADE/GRADE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEE9600B1700AA2500EFB19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRADE.app/GRADE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRADE/GRADE-Prefix.pch";
+				INFOPLIST_FILE = "GRADETests/GRADETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FEE9600C1700AA2500EFB19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRADE.app/GRADE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRADE/GRADE-Prefix.pch";
+				INFOPLIST_FILE = "GRADETests/GRADETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE95FC71700AA2500EFB19F /* Build configuration list for PBXProject "GRADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE960051700AA2500EFB19F /* Debug */,
+				FEE960061700AA2500EFB19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE960071700AA2500EFB19F /* Build configuration list for PBXNativeTarget "GRADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE960081700AA2500EFB19F /* Debug */,
+				FEE960091700AA2500EFB19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEE9600A1700AA2500EFB19F /* Build configuration list for PBXNativeTarget "GRADETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE9600B1700AA2500EFB19F /* Debug */,
+				FEE9600C1700AA2500EFB19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE95FC41700AA2500EFB19F /* Project object */;
+}

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB95506F16E3F5A600A307C9"
-               BuildableName = "G.R.A.D.E.app"
-               BlueprintName = "G.R.A.D.E"
-               ReferencedContainer = "container:G.R.A.D.E.xcodeproj">
+               BlueprintIdentifier = "FEE95FCB1700AA2500EFB19F"
+               BuildableName = "GRADE.app"
+               BlueprintName = "GRADE"
+               ReferencedContainer = "container:GRADE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FEE95FF41700AA2500EFB19F"
+               BuildableName = "GRADETests.octest"
+               BlueprintName = "GRADETests"
+               ReferencedContainer = "container:GRADE.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB95506F16E3F5A600A307C9"
-            BuildableName = "G.R.A.D.E.app"
-            BlueprintName = "G.R.A.D.E"
-            ReferencedContainer = "container:G.R.A.D.E.xcodeproj">
+            BlueprintIdentifier = "FEE95FCB1700AA2500EFB19F"
+            BuildableName = "GRADE.app"
+            BlueprintName = "GRADE"
+            ReferencedContainer = "container:GRADE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB95506F16E3F5A600A307C9"
-            BuildableName = "G.R.A.D.E.app"
-            BlueprintName = "G.R.A.D.E"
-            ReferencedContainer = "container:G.R.A.D.E.xcodeproj">
+            BlueprintIdentifier = "FEE95FCB1700AA2500EFB19F"
+            BuildableName = "GRADE.app"
+            BlueprintName = "GRADE"
+            ReferencedContainer = "container:GRADE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB95506F16E3F5A600A307C9"
-            BuildableName = "G.R.A.D.E.app"
-            BlueprintName = "G.R.A.D.E"
-            ReferencedContainer = "container:G.R.A.D.E.xcodeproj">
+            BlueprintIdentifier = "FEE95FCB1700AA2500EFB19F"
+            BuildableName = "GRADE.app"
+            BlueprintName = "GRADE"
+            ReferencedContainer = "container:GRADE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

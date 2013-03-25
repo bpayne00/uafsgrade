@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>G.R.A.D.E.xcscheme</key>
+		<key>GRADE.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EB95506F16E3F5A600A307C9</key>
+		<key>FEE95FCB1700AA2500EFB19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEE95FF41700AA2500EFB19F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
