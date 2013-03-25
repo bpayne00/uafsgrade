@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257F787E1700B2CD00D8B539 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F787B1700B2CD00D8B539 /* Course.m */; };
+		257F787F1700B2CD00D8B539 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F787D1700B2CD00D8B539 /* User.m */; };
+		257F78821700B2EE00D8B539 /* CourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78811700B2EE00D8B539 /* CourseTableViewCell.m */; };
+		257F788D1700B33200D8B539 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78841700B33200D8B539 /* LoginViewController.m */; };
+		257F788E1700B33200D8B539 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78861700B33200D8B539 /* RegisterViewController.m */; };
+		257F788F1700B33200D8B539 /* MainContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78871700B33200D8B539 /* MainContentViewController.m */; };
+		257F78901700B33200D8B539 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F788A1700B33200D8B539 /* DatabaseManager.m */; };
+		257F78911700B33200D8B539 /* UserDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F788C1700B33200D8B539 /* UserDatabaseManager.m */; };
 		FEE95FD01700AA2500EFB19F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FCF1700AA2500EFB19F /* UIKit.framework */; };
 		FEE95FD21700AA2500EFB19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD11700AA2500EFB19F /* Foundation.framework */; };
 		FEE95FD41700AA2500EFB19F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD31700AA2500EFB19F /* CoreGraphics.framework */; };
@@ -37,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		257F787A1700B2CD00D8B539 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		257F787B1700B2CD00D8B539 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		257F787C1700B2CD00D8B539 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		257F787D1700B2CD00D8B539 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		257F78801700B2EE00D8B539 /* CourseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseTableViewCell.h; sourceTree = "<group>"; };
+		257F78811700B2EE00D8B539 /* CourseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseTableViewCell.m; sourceTree = "<group>"; };
+		257F78831700B33200D8B539 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		257F78841700B33200D8B539 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		257F78851700B33200D8B539 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		257F78861700B33200D8B539 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		257F78871700B33200D8B539 /* MainContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContentViewController.m; sourceTree = "<group>"; };
+		257F78881700B33200D8B539 /* MainContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContentViewController.h; sourceTree = "<group>"; };
+		257F78891700B33200D8B539 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		257F788A1700B33200D8B539 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		257F788B1700B33200D8B539 /* UserDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDatabaseManager.h; sourceTree = "<group>"; };
+		257F788C1700B33200D8B539 /* UserDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDatabaseManager.m; sourceTree = "<group>"; };
 		FEE95FCC1700AA2500EFB19F /* GRADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE95FCF1700AA2500EFB19F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FEE95FD11700AA2500EFB19F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -167,6 +191,10 @@
 		FEE9600D1700ACB600EFB19F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				257F787A1700B2CD00D8B539 /* Course.h */,
+				257F787B1700B2CD00D8B539 /* Course.m */,
+				257F787C1700B2CD00D8B539 /* User.h */,
+				257F787D1700B2CD00D8B539 /* User.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -174,6 +202,8 @@
 		FEE9600E1700ACBF00EFB19F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				257F78801700B2EE00D8B539 /* CourseTableViewCell.h */,
+				257F78811700B2EE00D8B539 /* CourseTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -181,6 +211,16 @@
 		FEE9600F1700ACC300EFB19F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				257F78831700B33200D8B539 /* LoginViewController.h */,
+				257F78841700B33200D8B539 /* LoginViewController.m */,
+				257F78851700B33200D8B539 /* RegisterViewController.h */,
+				257F78861700B33200D8B539 /* RegisterViewController.m */,
+				257F78871700B33200D8B539 /* MainContentViewController.m */,
+				257F78881700B33200D8B539 /* MainContentViewController.h */,
+				257F78891700B33200D8B539 /* DatabaseManager.h */,
+				257F788A1700B33200D8B539 /* DatabaseManager.m */,
+				257F788B1700B33200D8B539 /* UserDatabaseManager.h */,
+				257F788C1700B33200D8B539 /* UserDatabaseManager.m */,
 				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
 				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
 				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
@@ -303,6 +343,14 @@
 				FEE95FE01700AA2500EFB19F /* AppDelegate.m in Sources */,
 				FEE95FEC1700AA2500EFB19F /* MasterViewController.m in Sources */,
 				FEE95FEF1700AA2500EFB19F /* DetailViewController.m in Sources */,
+				257F787E1700B2CD00D8B539 /* Course.m in Sources */,
+				257F787F1700B2CD00D8B539 /* User.m in Sources */,
+				257F78821700B2EE00D8B539 /* CourseTableViewCell.m in Sources */,
+				257F788D1700B33200D8B539 /* LoginViewController.m in Sources */,
+				257F788E1700B33200D8B539 /* RegisterViewController.m in Sources */,
+				257F788F1700B33200D8B539 /* MainContentViewController.m in Sources */,
+				257F78901700B33200D8B539 /* DatabaseManager.m in Sources */,
+				257F78911700B33200D8B539 /* UserDatabaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
