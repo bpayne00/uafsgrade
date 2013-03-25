@@ -120,16 +120,12 @@
 		FEE95FD51700AA2500EFB19F /* GRADE */ = {
 			isa = PBXGroup;
 			children = (
-				FEE9600F1700ACC300EFB19F /* Controller */,
-				FEE9600E1700ACBF00EFB19F /* View */,
-				FEE9600D1700ACB600EFB19F /* Model */,
 				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
 				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
 				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
-				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
-				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
-				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
-				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+				FEE9600F1700ACC300EFB19F /* Controller */,
+				FEE9600E1700ACBF00EFB19F /* View */,
+				FEE9600D1700ACB600EFB19F /* Model */,
 				FEE95FD61700AA2500EFB19F /* Supporting Files */,
 			);
 			path = GRADE;
@@ -185,6 +181,10 @@
 		FEE9600F1700ACC300EFB19F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
+				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
+				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
