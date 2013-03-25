@@ -123,6 +123,96 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
+		EB977C6E1700B4290096D674 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				257F787A1700B2CD00D8B539 /* Course.h */,
+				257F787B1700B2CD00D8B539 /* Course.m */,
+			);
+			name = Course;
+			sourceTree = "<group>";
+		};
+		EB977C6F1700B4310096D674 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				257F787C1700B2CD00D8B539 /* User.h */,
+				257F787D1700B2CD00D8B539 /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EB977C711700B43F0096D674 /* CourseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				257F78801700B2EE00D8B539 /* CourseTableViewCell.h */,
+				257F78811700B2EE00D8B539 /* CourseTableViewCell.m */,
+			);
+			name = CourseTableView;
+			sourceTree = "<group>";
+		};
+		EB977C721700B4460096D674 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				257F78831700B33200D8B539 /* LoginViewController.h */,
+				257F78841700B33200D8B539 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		EB977C731700B4560096D674 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				257F78851700B33200D8B539 /* RegisterViewController.h */,
+				257F78861700B33200D8B539 /* RegisterViewController.m */,
+			);
+			name = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		EB977C741700B4630096D674 /* MainContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				257F78871700B33200D8B539 /* MainContentViewController.m */,
+				257F78881700B33200D8B539 /* MainContentViewController.h */,
+			);
+			name = MainContentViewController;
+			sourceTree = "<group>";
+		};
+		EB977C751700B46D0096D674 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				257F78891700B33200D8B539 /* DatabaseManager.h */,
+				257F788A1700B33200D8B539 /* DatabaseManager.m */,
+			);
+			name = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		EB977C761700B4750096D674 /* UserDatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				257F788B1700B33200D8B539 /* UserDatabaseManager.h */,
+				257F788C1700B33200D8B539 /* UserDatabaseManager.m */,
+			);
+			name = UserDatabaseManager;
+			sourceTree = "<group>";
+		};
+		EB977C771700B4800096D674 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
+				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		EB977C781700B48D0096D674 /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
+				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+			);
+			name = MasterViewController;
+			sourceTree = "<group>";
+		};
 		FEE95FC31700AA2500EFB19F = {
 			isa = PBXGroup;
 			children = (
@@ -204,10 +294,8 @@
 		FEE9600D1700ACB600EFB19F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				257F787A1700B2CD00D8B539 /* Course.h */,
-				257F787B1700B2CD00D8B539 /* Course.m */,
-				257F787C1700B2CD00D8B539 /* User.h */,
-				257F787D1700B2CD00D8B539 /* User.m */,
+				EB977C6E1700B4290096D674 /* Course */,
+				EB977C6F1700B4310096D674 /* User */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -215,8 +303,7 @@
 		FEE9600E1700ACBF00EFB19F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				257F78801700B2EE00D8B539 /* CourseTableViewCell.h */,
-				257F78811700B2EE00D8B539 /* CourseTableViewCell.m */,
+				EB977C711700B43F0096D674 /* CourseTableView */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -224,20 +311,13 @@
 		FEE9600F1700ACC300EFB19F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				257F78831700B33200D8B539 /* LoginViewController.h */,
-				257F78841700B33200D8B539 /* LoginViewController.m */,
-				257F78851700B33200D8B539 /* RegisterViewController.h */,
-				257F78861700B33200D8B539 /* RegisterViewController.m */,
-				257F78871700B33200D8B539 /* MainContentViewController.m */,
-				257F78881700B33200D8B539 /* MainContentViewController.h */,
-				257F78891700B33200D8B539 /* DatabaseManager.h */,
-				257F788A1700B33200D8B539 /* DatabaseManager.m */,
-				257F788B1700B33200D8B539 /* UserDatabaseManager.h */,
-				257F788C1700B33200D8B539 /* UserDatabaseManager.m */,
-				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
-				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
-				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
-				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
+				EB977C721700B4460096D674 /* LoginViewController */,
+				EB977C731700B4560096D674 /* RegisterViewController */,
+				EB977C741700B4630096D674 /* MainContentViewController */,
+				EB977C751700B46D0096D674 /* DatabaseManager */,
+				EB977C761700B4750096D674 /* UserDatabaseManager */,
+				EB977C771700B4800096D674 /* DetailViewController */,
+				EB977C781700B48D0096D674 /* MasterViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
