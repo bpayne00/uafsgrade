@@ -15,6 +15,7 @@
 		257F788F1700B33200D8B539 /* MainContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78871700B33200D8B539 /* MainContentViewController.m */; };
 		257F78901700B33200D8B539 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F788A1700B33200D8B539 /* DatabaseManager.m */; };
 		257F78911700B33200D8B539 /* UserDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F788C1700B33200D8B539 /* UserDatabaseManager.m */; };
+		257F78951700B3E000D8B539 /* KinveyNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F78941700B3E000D8B539 /* KinveyNetworkReachability.m */; };
 		FEE95FD01700AA2500EFB19F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FCF1700AA2500EFB19F /* UIKit.framework */; };
 		FEE95FD21700AA2500EFB19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD11700AA2500EFB19F /* Foundation.framework */; };
 		FEE95FD41700AA2500EFB19F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE95FD31700AA2500EFB19F /* CoreGraphics.framework */; };
@@ -61,6 +62,8 @@
 		257F788A1700B33200D8B539 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		257F788B1700B33200D8B539 /* UserDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDatabaseManager.h; sourceTree = "<group>"; };
 		257F788C1700B33200D8B539 /* UserDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDatabaseManager.m; sourceTree = "<group>"; };
+		257F78931700B3E000D8B539 /* KinveyNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinveyNetworkReachability.h; sourceTree = "<group>"; };
+		257F78941700B3E000D8B539 /* KinveyNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinveyNetworkReachability.m; sourceTree = "<group>"; };
 		FEE95FCC1700AA2500EFB19F /* GRADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE95FCF1700AA2500EFB19F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FEE95FD11700AA2500EFB19F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,22 +114,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB977C6C1700B2BD0096D674 /* DetailViewController */ = {
+		257F78921700B3CA00D8B539 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				FEE95FED1700AA2500EFB19F /* DetailViewController.h */,
-				FEE95FEE1700AA2500EFB19F /* DetailViewController.m */,
+				257F78931700B3E000D8B539 /* KinveyNetworkReachability.h */,
+				257F78941700B3E000D8B539 /* KinveyNetworkReachability.m */,
 			);
-			name = DetailViewController;
-			sourceTree = "<group>";
-		};
-		EB977C6D1700B2D90096D674 /* MasterViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FEE95FEA1700AA2500EFB19F /* MasterViewController.h */,
-				FEE95FEB1700AA2500EFB19F /* MasterViewController.m */,
-			);
-			name = MasterViewController;
+			name = Data;
 			sourceTree = "<group>";
 		};
 		FEE95FC31700AA2500EFB19F = {
@@ -162,6 +156,7 @@
 		FEE95FD51700AA2500EFB19F /* GRADE */ = {
 			isa = PBXGroup;
 			children = (
+				257F78921700B3CA00D8B539 /* Data */,
 				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
 				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
 				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
@@ -369,6 +364,7 @@
 				257F788F1700B33200D8B539 /* MainContentViewController.m in Sources */,
 				257F78901700B33200D8B539 /* DatabaseManager.m in Sources */,
 				257F78911700B33200D8B539 /* UserDatabaseManager.m in Sources */,
+				257F78951700B3E000D8B539 /* KinveyNetworkReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
