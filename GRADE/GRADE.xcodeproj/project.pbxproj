@@ -120,6 +120,9 @@
 		FEE95FD51700AA2500EFB19F /* GRADE */ = {
 			isa = PBXGroup;
 			children = (
+				FEE9600F1700ACC300EFB19F /* Controller */,
+				FEE9600E1700ACBF00EFB19F /* View */,
+				FEE9600D1700ACB600EFB19F /* Model */,
 				FEE95FDE1700AA2500EFB19F /* AppDelegate.h */,
 				FEE95FDF1700AA2500EFB19F /* AppDelegate.m */,
 				FEE95FE71700AA2500EFB19F /* MainStoryboard.storyboard */,
@@ -163,6 +166,27 @@
 				FEE95FFF1700AA2500EFB19F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE9600D1700ACB600EFB19F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FEE9600E1700ACBF00EFB19F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FEE9600F1700ACC300EFB19F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,6 +485,7 @@
 				FEE960091700AA2500EFB19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEE9600A1700AA2500EFB19F /* Build configuration list for PBXNativeTarget "GRADETests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +494,7 @@
 				FEE9600C1700AA2500EFB19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
